@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+
+<html ng-app="app">
+<head>
+	<meta charset="UTF-8">
+	<title>hello world</title>
+	<script src="./angular.min.js"></script>
+	<script src="./controller.js"></script>
+</head>
+<body>
+	<div ng-controller="HelloController">
+		<input type="text" ng-model="greeting.text" value="{{greeting.text}}">
+		<p>{{greeting.text}}</p>
+	</div>
+	<input type="button" onclick="func1()">
+</body>
+</html>
